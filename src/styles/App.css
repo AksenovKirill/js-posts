@@ -6,11 +6,46 @@
 
 #root {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App {
   width: 800px;
+}
+
+.about {
+  margin-top: 30px;
+  padding: 30px;
+  border: 2px solid teal;
+}
+
+.navigation {
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background: lightgray;
+}
+
+.navigation__link {
+  margin-left: auto;
+  margin-right: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__link-item {
+  text-decoration: none;
+  padding: 10px 0px;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.navigation__link-item:hover {
+  color: teal;
+  border-bottom: 2px solid teal;
 }
 
 .post {
