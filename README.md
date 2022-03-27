@@ -1,4 +1,7 @@
 # React Traine Basic Project
-I used basic opportunities React and created simple blog.
+#S Small blog with more functions: add and delete posts, search and sort posts, modal, pages with comments, login page, service and more.
+I used basic opportunities React (hooks, router, Hocs).
+This is my first react project
 
-It is blog has some functions: add and delete posts, search and sort posts, modal and anothers.
+Thanks Timur Ulbi Tv
+This is his youtube channel: https://www.youtube.com/channel/UCDzGdB9TTgFm8jRXn1tBdoA
