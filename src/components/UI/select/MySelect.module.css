@@ -1,0 +1,10 @@
+.select {
+  width: 100px;
+  height: 25px;
+  margin-top: 20px;
+  border: 2px solid teal;
+}
+
+.select:focus {
+  border: 2px solid orange;
+}

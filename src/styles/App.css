@@ -123,3 +123,9 @@
   margin: 20px;
   border: 2px solid teal;
 }
+
+.select__wrapper {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
