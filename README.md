@@ -3,5 +3,5 @@
 I used basic opportunities React (hooks, router, Hocs).
 This is my first React project.
 
-Thanks Timur Ulbi Tv.
+Thanks Timur Ulbi TV.
 This is his youtube channel: https://www.youtube.com/channel/UCDzGdB9TTgFm8jRXn1tBdoA
