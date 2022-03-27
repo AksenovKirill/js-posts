@@ -4,5 +4,5 @@ I used basic opportunities React (hooks, router, Hocs).
 This is my first React project.
 
 Thanks Timur Ulbi TV.
-This is his youtube channel: https://www.youtube.com/channel/UCDzGdB9TTgFm8jRXn1tBdoA
+This is his youtube channel: https://www.youtube.com/channel/UCDzGdB9TTgFm8jRXn1tBdoA .
 Server: https://jsonplaceholder.typicode.com/
