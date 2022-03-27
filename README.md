@@ -1,5 +1,5 @@
 # React Traine Basic Project
-# Small blog with more functions: add and delete posts, search and sort posts, modal, pages with comments, login page, service and more.
+# Small blog with more functions: add and delete posts, search and sort posts, modal, pages with comments, login page, server and more.
 I used basic opportunities React (hooks, router, Hocs).
 This is my first React project.
 
