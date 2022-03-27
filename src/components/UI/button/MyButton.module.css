@@ -5,4 +5,9 @@
     background: transparent;
     border: 1px solid teal;
     cursor: pointer;
+    margin-left: 5px;
+}
+.myBtn:hover {
+  color: black;
+  border: 1px solid orange;
 }
