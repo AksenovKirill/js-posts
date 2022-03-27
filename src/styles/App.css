@@ -38,14 +38,13 @@
 .navigation__link-item {
   text-decoration: none;
   padding: 10px 0px;
-  margin: 5px;
+  margin: 10px;
   font-size: 18px;
   font-weight: bold;
-  color: black;
+  color: teal;
 }
 .navigation__link-item:hover {
-  color: teal;
-  border-bottom: 2px solid teal;
+  color: black;
 }
 
 .post {
@@ -75,6 +74,10 @@
   text-align: center;
   margin: 20px;
 }
+
+.post__btns {
+  display: flex;
+}
 .page__wrapper {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -92,4 +95,31 @@
 .page__current {
   border: 2px solid orange;
   font-weight: bold;
+}
+
+.comments__wrapper {
+  display: flex;
+  width: 850px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+.comments__title {
+  text-align: center;
+  margin: 20px;
+}
+.comment__title {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.comment {
+  font-style: italic;
+  margin: 5px;
+}
+.comment__email {
+  padding: 15px;
+}
+.comment__item {
+  margin: 20px;
+  border: 2px solid teal;
 }
