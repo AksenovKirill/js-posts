@@ -64,7 +64,6 @@ function Posts() {
       </MyModal>
       <hr style={{margin: '15px 0'}}></hr>
       <PostFilter filter={filter} setFilter={setFilter} limit={limit} setLimit={setLimit} />
-      <MyInput></MyInput>
       <PostList
         remove={removePost}
         posts={sortedAndSearchedPosts}
