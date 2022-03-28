@@ -4,13 +4,14 @@ import PostForm from '../components/PostForm';
 import PostList from '../components/PostList';
 import MyButton from '../components/UI/button/MyButton';
 import MyModal from '../components/UI/modal/MyModal';
+import Pagination from '../components/UI/pagination/Pagination'
 import PostService from '../API/PostService';
 import Loader from '../components/UI/loader/Loader';
 import {usePosts} from '../hooks/usePosts';
 import {useFetching} from '../hooks/useFetching';
 import {getPagesCount} from '../components/utils/pages';
 import {useObserver} from '../hooks/useObserver';
-import MyInput from '../components/UI/input/MyInput';
+
 
 function Posts() {
   //*useState
@@ -52,6 +53,10 @@ function Posts() {
     setPosts(posts.filter((item) => item.id !== post.id));
   };
 
+  const changePage = (page) => {
+    setPage(page);
+  };
+
   return (
     <div className='App'>
       <MyButton
@@ -63,7 +68,12 @@ function Posts() {
         <PostForm create={createPost} /> {/* через props передаем callback  */}
       </MyModal>
       <hr style={{margin: '15px 0'}}></hr>
-      <PostFilter filter={filter} setFilter={setFilter} limit={limit} setLimit={setLimit} />
+      <PostFilter
+        filter={filter}
+        setFilter={setFilter}
+        limit={limit}
+        setLimit={setLimit}
+      />
       <PostList
         remove={removePost}
         posts={sortedAndSearchedPosts}
@@ -71,6 +81,7 @@ function Posts() {
       />
       <div ref={lastElement}></div>
       {isPostsLoading && <Loader />}
+      <Pagination page={page} changePage={changePage} totalPages={totalPages} />
     </div>
   );
 }

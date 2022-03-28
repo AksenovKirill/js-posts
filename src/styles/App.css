@@ -87,13 +87,13 @@
 
 .page {
   padding: 10px;
-  border: 1px solid teal;
+  border: none;
   cursor: pointer;
   margin-left: 5px;
 }
 
 .page__current {
-  border: 2px solid orange;
+  border: none;
   font-weight: bold;
 }
 
